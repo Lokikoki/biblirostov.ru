@@ -1,0 +1,168 @@
+
+body {
+  background: linear-gradient(50deg, #c5d0c1, #a8cd9f);
+}
+
+a {
+ color: #076616; /* Цвет обычной ссылки */ 
+ text-decoration: none; /* Убираем подчёркивание у ссылок */
+ font-family: 'Source Sans Pro', sans-serif;
+ padding: 2rem 1rem;
+ transition: 0.1s; /* Время эффекта */
+ letter-spacing: 1px;
+}
+
+a:hover {
+ color: #a47155; /* Цвет ссылки при наведении */ 
+ font-weight: 900;
+ transform: scale(5); /* Увеличиваем масштаб */
+}
+
+.line {
+    border-bottom: 2px solid rgb(19, 123, 12); /* Параметры линии */
+   }
+   
+.callout { 
+    border-left: 4px solid gray; /* Параметры линии */ 
+    padding: 10px; /* Расстояние от линии до текста */
+    background: #f0f0f0; /* Цвет фона */
+   }
+
+   
+   .opisaniye-materiala{
+    height: 386px;
+    width: 700px;
+    position: relative;
+    margin-top: 1%;
+  }
+  .opisaniye-materiala .images{
+    height: 100%;
+    width: 100%;
+  }
+  .opisaniye-materiala .images img{
+    height: 100%;
+    width: 100%;
+  }
+  .btm-slides{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .btm-slides span{
+    height: 15px;
+    width: 50px;
+    border: 2px solid white;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+  .pokazatel-snimka{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    cursor: pointer;
+    border: 2px solid white;
+    background: rgba(255,255,255,0.1);
+  }
+  .pokazatel-snimka:hover{
+    background: rgba(118, 118, 17, 0.2);
+  }
+  .right{
+    right: 0;
+  }
+  .pokazatel-snimka span{
+    line-height: 41px;
+    font-size: 35px;
+    color: rgb(53, 141, 26);
+  }
+
+  hr {
+    border: none; /* Убираем границу */
+    background-color:rgb(19, 123, 12) ; /* Цвет линии */
+    color: rgb(19, 123, 12); /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    width: 160px;
+    margin-top: 5%;
+    box-sizing: content-box;
+    overflow: visible;
+   }
+
+   .text {
+    color:#766f6b;
+    margin-top: 1%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 3rem 2rem;
+    font-size: 32px;
+   }
+
+   .wuw {
+    display: flex;
+   }
+
+   .uvchit {
+    color:#076616;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 29px;
+    align: center;
+    letter-spacing: 3px;
+   }
+
+   .uvchit1 {
+    color:#061709;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2%;
+    font-size: 20px;
+    letter-spacing: 1px;
+   }
+
+   .container {
+    width: 430px;
+    height: auto;
+    padding-top: 75px;
+    margin: 0 auto;
+}
+input {
+  padding: 20px;
+	width: 170px;
+	
+}
+select {
+    width: 223px;
+    text-align: center;
+    height: 80px;
+}
+.button-main {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.uvchit5 {
+  color:#076616;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 29px;
+  align: center;
+  letter-spacing: 3px;
+  margin-bottom: 2%;
+ }
+
+ .uvchit10 {
+  color:#076616;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 29px;
+  align: center;
+  letter-spacing: 3px;
+  margin-bottom: 2%;
+  margin-top: 5%;
+ }
+
+
+ .uvchit19 {
+  color:#061709;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 2%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-left: 5%;
+ }
